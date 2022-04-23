@@ -8,7 +8,7 @@ const BackButton = () => {
 
     return(
         <div className={styles.container}>
-            <p onClick={() => navigate("/")}>Back</p>
+            <p onClick={() => navigate(-1)}>Back</p>
         </div>
     )
 }
